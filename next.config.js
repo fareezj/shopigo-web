@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: ["cf.shopee.com.my"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
